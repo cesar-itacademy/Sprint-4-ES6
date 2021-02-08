@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Boostrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- CSS Custom -->
+    <link href="./styles/styles.css" rel="stylesheet">
+    <title>Nivell 2</title>
+</head>
+<body>
+  <header>
+    <h1> Exercici 8 </h1>
+    <h2>ES6 - Taula de multiplicació</h2>
+  </header>
+  <main>
+    <div class="box1">
+      <form class="form " id="form-multiplicar" name="form-multiplicar">
+        <label  for="numberA">Introduce el primer núnmero del 1 al 10</label>
+        <input type="number" class="form-control" id="numberA" name="numberA">
+        <label  for="numberB">Introduce el segundo núnmero del 1 al 10</label>
+        <input type="number" class="form-control" id="numberB" name="numberB">
+        <button class="btn btn-primary" type="button" id="resultado">Resultado</button>
+      </form>
+
+    </div>
+    <div class="box2">
+      
+    </div>
+
+  </main>
+
+  
+  <script>    
+  let numA, numB;
+
+
+   //Pedir los números hasta que estén en el rango definido
+    
+
+    // Función para generar cada línea con formato "num1 X num2 = result"
+    const multiply = (numA, numB) => {
+      for (let i=1; i <= numB; i++) {
+        let resultat = `${numA} X ${i} = ${numA * i}`;
+      console.log(resultat); // Imprime resultado en consola por cada iteración
+    }
+    }
+    // Ejecutamos la función 
+    multiply(numA,numB);
+
+  </script>
+  <!-- Script Boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>"
+</body>
+</html>
