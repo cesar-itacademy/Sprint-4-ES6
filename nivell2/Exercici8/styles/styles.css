@@ -1,7 +1,25 @@
+
 .box1 {
-    width: 600px;
-    height: 960px;
-    margin: auto;
-    background-image: url("/nivell2/Exercici8/assets/calculadora.jpg");
-    background-size: auto;
+    max-width: 400px;
+    margin: 50px auto;   
+    justify-content:center;
+    text-align: center;
 }
+
+
+.box2{
+    max-width: 400px;
+    margin: 50px auto;  
+}
+.box2 .table {
+    width: 50% !important;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+} 
+    .box2 .table td {
+      font-weight: 600 !important;
+      text-align: center;
+      border-top: 3px dashed #24a803;
+    }
+   
+ 
