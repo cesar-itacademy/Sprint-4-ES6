@@ -13,7 +13,7 @@ const multiply = (num1, num2) => num1 * num2;
 console.log(`1: ${multiply(2, 3)} `);
 
 // 2
-const toCelsius = (fahrenheit) => (5 / 9) * (fahrenheit - 32);
+const toCelsius = fahrenheit => 5 / 9 * (fahrenheit - 32);
 
 console.log(`2: ${toCelsius(50)} `);
 
@@ -57,7 +57,7 @@ const users = [
   { firstName: "Maggie", lastName: "Simpson" }
 ];
 
-const fName = users.map((user) => user.firstName);
+const fName = users.map(user => user.firstName);
 
 console.log(fName);
 
