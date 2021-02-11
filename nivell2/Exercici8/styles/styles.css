@@ -1,0 +1,24 @@
+
+.box1{/* Ajustamos el ancho y justificamos el contenido al centro */
+    max-width: 400px;
+    margin: 50px auto;   
+    justify-content:center;
+    text-align: center;
+}
+
+.box2{ /* Ajustamos el acho y ponemos margenes*/
+    max-width: 400px;
+    margin: 50px auto;  
+}
+.box2 .table { /* Cambiar el ancho de la tabla */
+    width: 50% !important;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+} 
+    .box2 .table td { /* Modificamos el texto de la celda y ponemos un borde */
+      font-weight: 600 !important;
+      text-align: center;
+      border-top: 3px dashed #24a803;
+    }
+   
+ 
